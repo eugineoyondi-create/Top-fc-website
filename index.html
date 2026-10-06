@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TOP FC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= LOGIN PAGE ================= -->
+
+<div id="loginPage" class="login-page">
+
+    <div class="login-box">
+
+        <div class="login-logo">⚽</div>
+
+        <h1>TOP FC</h1>
+        <p>Club Management Portal</p>
+
+        <input type="text" id="username" placeholder="Username">
+
+        <input type="password" id="password" placeholder="Password">
+
+        <button onclick="login()">LOGIN</button>
+
+        <p id="loginError"></p>
+
+    </div>
+
+</div>
+
+
+<!-- ================= DASHBOARD ================= -->
+
+<div id="dashboard" class="dashboard">
+
+    <aside class="dashboard-sidebar">
+
+        <h2>⚽ TOP FC</h2>
+        <p class="portal-title">CLUB PORTAL</p>
+
+        <a href="#" class="active">🏠 Dashboard</a>
+        <a href="#squad">👥 Players</a>
+        <a href="#matches">⚽ Matches</a>
+        <a href="#management">👔 Management</a>
+        <a href="#news">📰 News</a>
+        <a href="#messages">💬 Messages</a>
+        <a href="#contact">📞 Contact</a>
+        
+
+        <button onclick="logout()" class="logout-button">
+            🚪 Logout
+        </button>
+
+    </aside>
+
+
+    <main class="dashboard-main">
+
+        <div class="dashboard-top">
+
+            <div>
+                <h1>TOP FC Dashboard</h1>
+                <p>Welcome to the TOP FC Management Portal</p>
+            </div>
+
+            <div class="admin-name">
+                👤 Admin
+            </div>
+
+        </div>
+
+
+        <section class="dashboard-cards">
+
+            <div class="dashboard-card">
+                <span>👥</span>
+                <h3>Players</h3>
+                <strong>15</strong>
+                <p>Registered Players</p>
+            </div>
+
+            <div class="dashboard-card">
+                <span>⚽</span>
+                <h3>Matches</h3>
+                <strong>3</strong>
+                <p>Upcoming Matches</p>
+            </div>
+
+            <div class="dashboard-card">
+                <span>👔</span>
+                <h3>Management</h3>
+                <strong>6</strong>
+                <p>Staff Members</p>
+            </div>
+
+            <div class="dashboard-card">
+                <span>📰</span>
+                <h3>News</h3>
+                <strong>3</strong>
+                <p>Club Updates</p>
+            </div>
+
+        </section>
+
+
+        <section class="dashboard-welcome">
+
+            <h2>Welcome to TOP FC</h2>
+
+            <p>
+                This portal gives you access to the club's players,
+                matches, management staff, news and other important
+                club information.
+            </p>
+
+        </section>
+
+
+        <section class="quick-access">
+
+            <h2>Quick Access</h2>
+
+            <div class="quick-buttons">
+
+                <a href="#squad">👥 View Players</a>
+
+                <a href="#matches">⚽ View Matches</a>
+
+                <a href="#management">👔 View Staff</a>
+
+                <a href="#news">📰 View News</a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<!-- ================= TOP FC WEBSITE ================= -->
+
+<header>
+
+    <h1>
+        TOP
+
+        <div class="club-logo">
+            <img src="Whatsapp image.jpeg" alt="TOP FC Logo">
+        </div>
+
+        FC
+    </h1>
+
+    <p>Football • Teamwork • Passion • Victory</p>
+
+</header>
+
+
+<nav>
+
+    <a href="#">Home</a>
+    <a href="#squad">Team</a>
+    <a href="#matches">Matches</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <h2>WELCOME TO TOP FC</h2>
+
+    <p>Passion • Unity • Victory</p>
+
+    <a href="#squad" class="button">
+        View Our Team
+    </a>
+
+</section>
+
+
+<!-- ================= SQUAD ================= -->
+
+<section class="squad" id="squad">
+
+    <h2>OUR SQUAD</h2>
+
+
+    <h3>GOALKEEPERS</h3>
+
+    <div class="players">
+
+        <div class="player">
+            <h3>Brian Wekesa</h3>
+            <p>Goalkeeper</p>
+        </div>
+
+        <div class="player">
+            <h3>Emmanuel Sakit</h3>
+            <p>Goalkeeper</p>
+        </div>
+
+    </div>
+
+
+    <h3>DEFENDERS</h3>
+
+    <div class="players">
+
+        <div class="player">
+            <h3>Mbogua Kimotho</h3>
+            <p>Defender</p>
+        </div>
+
+        <div class="player">
+            <h3>Amos Shamalla</h3>
+            <p>Defender</p>
+        </div>
+
+        <div class="player">
+            <h3>Owen Dan</h3>
+            <p>Defender</p>
+        </div>
+
+        <div class="player">
+            <h3>Owen Kirima</h3>
+            <p>Defender</p>
+        </div>
+
+        <div class="player">
+            <h3>Hillary Kiprop</h3>
+            <p>Defender</p>
+        </div>
+
+    </div>
+
+
+    <h3>MIDFIELDERS</h3>
+
+    <div class="players">
+
+        <div class="player">
+            <h3>Joab</h3>
+            <p>Midfielder</p>
+        </div>
+
+        <div class="player">
+            <h3>Meshark Wafula</h3>
+            <p>Midfielder</p>
+        </div>
+
+        <div class="player">
+            <h3>Edward Barasa</h3>
+            <p>Midfielder</p>
+        </div>
+
+        <div class="player">
+            <h3>Samwel Kiplimo</h3>
+            <p>Midfielder</p>
+        </div>
+
+    </div>
+
+
+    <h3>STRIKERS</h3>
+
+    <div class="players">
+
+        <div class="player">
+            <h3>Eugine Oyondi</h3>
+            <p>Striker</p>
+        </div>
+
+        <div class="player">
+            <h3>Martin Wekesa</h3>
+            <p>Striker</p>
+        </div>
+
+        <div class="player">
+            <h3>Innocent Okumu</h3>
+            <p>Striker</p>
+        </div>
+
+        <div class="player">
+            <h3>Mitch Okumu</h3>
+            <p>Striker</p>
+        </div>
+
+        <div class="player">
+            <h3>Nathan Kiprotich</h3>
+            <p>Striker</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MANAGEMENT ================= -->
+
+<section class="management" id="management">
+
+    <h2>TOP FC STAFF & MANAGEMENT</h2>
+
+    <div class="management-container">
+
+        <div class="staff-card">
+            <h3>Club President</h3>
+            <p>Kelvin Kimtai</p>
+        </div>
+
+        <div class="staff-card">
+            <h3>Club Secretary</h3>
+            <p>Alek Okumu</p>
+        </div>
+
+        <div class="staff-card">
+            <h3>Head Coach</h3>
+            <p>Kenneth Wafula</p>
+        </div>
+
+        <div class="staff-card">
+            <h3>Assistant Coach</h3>
+            <p>Abraham Wafula</p>
+        </div>
+
+        <div class="staff-card">
+            <h3>Team Manager</h3>
+            <p>Emmanuel Wanyonyi</p>
+        </div>
+
+        <div class="staff-card">
+            <h3>Club Treasurer</h3>
+            <p>Gideon Chesumbai</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MATCHES ================= -->
+
+<section class="matches" id="matches">
+
+    <h2>OUR MATCHES</h2>
+
+    <div class="matches-container">
+
+        <div class="match-card">
+
+            <h3>TOP FC vs UNITED FC</h3>
+
+            <p>Date: Coming Soon</p>
+
+            <p>Venue: TOP FC Stadium</p>
+
+        </div>
+
+
+        <div class="match-card">
+
+            <h3>TOP FC vs CITY FC</h3>
+
+            <p>Date: Coming Soon</p>
+
+            <p>Venue: TOP FC Stadium</p>
+
+        </div>
+
+
+        <div class="match-card">
+
+            <h3>TOP FC vs WARRIORS FC</h3>
+
+            <p>Date: Coming Soon</p>
+
+            <p>Venue: Away</p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= MESSAGES ================= -->
+
+<section class="messages-page" id="messages">
+
+    <div class="messages-header">
+
+        <div>
+            <h2>💬 Messages</h2>
+            <p>TOP FC Club Communication Center</p>
+        </div>
+
+        <div class="message-count">
+            📥 <span id="unreadCount">0</span> Unread
+        </div>
+
+    </div>
+
+
+    <div class="messages-tabs">
+
+        <button onclick="showInbox()">
+            📥 Inbox
+        </button>
+
+        <button onclick="showSent()">
+            📤 Sent
+        </button>
+
+        <button onclick="showCompose()">
+            ✏️ Compose
+        </button>
+
+    </div>
+
+
+    <!-- INBOX -->
+
+    <div id="inbox" class="message-section">
+
+        <h3>📥 Inbox</h3>
+
+        <div id="inboxMessages">
+
+            <div class="empty-message">
+                No messages yet.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SENT -->
+
+    <div id="sent" class="message-section" style="display:none;">
+
+        <h3>📤 Sent Messages</h3>
+
+        <div id="sentMessages">
+
+            <div class="empty-message">
+                No sent messages yet.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- COMPOSE -->
+
+    <div id="compose" class="message-section" style="display:none;">
+
+        <h3>✏️ Compose Message</h3>
+
+        <form onsubmit="sendMessage(); return false;">
+
+            <input
+                type="text"
+                id="messageTo"
+                placeholder="To"
+                required
+            >
+
+            <input
+                type="text"
+                id="messageSubject"
+                placeholder="Subject"
+                required
+            >
+
+            <textarea
+                id="messageBody"
+                rows="8"
+                placeholder="Write your message..."
+                required
+            ></textarea>
+
+            <button type="submit">
+                📤 Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWS ================= -->
+
+<section class="news" id="news">
+
+    <h2>TOP FC NEWS</h2>
+
+    <div class="news-container">
+
+        <div class="news-card">
+
+            <h3>TOP FC Ready for the New Season</h3>
+
+            <p>
+                TOP FC is preparing for the new season with the players
+                working hard in training.
+            </p>
+
+            <button>Read More</button>
+
+        </div>
+
+
+        <div class="news-card">
+
+            <h3>Match Day Coming Soon</h3>
+
+            <p>
+                Our team is ready to face United FC in an exciting
+                upcoming match at TOP FC Stadium.
+            </p>
+
+            <button>Read More</button>
+
+        </div>
+
+
+        <div class="news-card">
+
+            <h3>Players Continue Training</h3>
+
+            <p>
+                The squad continues to work together to improve
+                fitness, teamwork and performance.
+            </p>
+
+            <button>Read More</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <h2>CONTACT TOP FC</h2>
+
+    <form class="contact-form" onsubmit="sendWhatsApp(); return false;">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required
+        >
+
+        <textarea
+            id="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+        ></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <h2>TOP FC</h2>
+
+        <p>Football • Teamwork • Passion • Victory</p>
+
+        <div class="social-links">
+
+            <a href="#">Facebook</a>
+
+            <a href="#">Instagram</a>
+
+            <a href="#">TikTok</a>
+
+            <a href="#">WhatsApp</a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 TOP FC. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2">
+</script>
+
+<script>
+const SUPABASE_URL = "https://msfjtxtrcoczumkxosam.co"
+const SUPABASE_ANON_KEY = "sb_publishable_FaOnwGy3qRHULbKCxgZwNA_75FfUmC7    ";
+
+const supabaseClient = window.supabase.createClient(
+    SUPABASE_URL,
+    SUPABASE_ANON_KEY
+);
+
+function login() {
+
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if (username === "top fc" && password === "6889") {
+
+        document.getElementById("loginPage").style.display = "none";
+
+        document.getElementById("dashboard").style.display = "block";
+
+    } else {
+
+        document.getElementById("loginError").innerHTML =
+            "Incorrect username or password";
+
+    }
+
+}
+
+
+function logout() {
+
+    document.getElementById("dashboard").style.display = "none";
+
+    document.getElementById("loginPage").style.display = "flex";
+
+}
+
+
+function sendWhatsApp() {
+
+    var name = document.getElementById("name").value;
+
+    var email = document.getElementById("email").value;
+
+    var message = document.getElementById("message").value;
+
+    var phoneNumber = "254705705603";
+
+    var text =
+        "Hello TOP FC!\n\n" +
+        "Name: " + name + "\n" +
+        "Email: " + email + "\n" +
+        "Message: " + message;
+
+    var whatsappURL =
+        "https://wa.me/" + phoneNumber +
+        "?text=" + encodeURIComponent(text);
+
+    window.open(whatsappURL, "_blank");
+
+}
+
+/* =====================================================
+   MESSAGES SYSTEM
+   ===================================================== */
+
+function showInbox() {
+
+    document.getElementById("inbox").style.display = "block";
+
+    document.getElementById("sent").style.display = "none";
+
+    document.getElementById("compose").style.display = "none";
+
+}
+
+
+function showSent() {
+
+    document.getElementById("inbox").style.display = "none";
+
+    document.getElementById("sent").style.display = "block";
+
+    document.getElementById("compose").style.display = "none";
+
+}
+
+
+function showCompose() {
+
+    document.getElementById("inbox").style.display = "none";
+
+    document.getElementById("sent").style.display = "none";
+
+    document.getElementById("compose").style.display = "block";
+
+}
+
+
+async function sendMessage() {
+
+    var to = document.getElementById("messageTo").value;
+    var subject = document.getElementById("messageSubject").value;
+    var body = document.getElementById("messageBody").value;
+
+    const { error } = await supabaseClient
+        .from("messages")
+        .insert([
+            {
+                senders: to,
+                recipient: to,
+                message: subject + ": " + body
+            }
+        ]);
+
+    if (error) {
+        alert("Message failed: " + error.message);
+        return;
+    }
+
+    alert("Message sent successfully!");
+
+    document.getElementById("messageTo").value = "";
+    document.getElementById("messageSubject").value = "";
+    document.getElementById("messageBody").value = "";
+
+    showSent();
+}
+
+
+async function loadSentMessages() {
+
+    const { data, error } = await supabaseClient
+        .from("messages")
+        .select("*");
+
+    if (error) {
+        console.error(error);
+        return;
+    }
+
+    const container = document.getElementById("sentMessages");
+
+    if (!data || data.length === 0) {
+        container.innerHTML =
+            '<div class="empty-message">No messages yet.</div>';
+        return;
+    }
+
+    container.innerHTML = "";
+
+    data.forEach(function(message) {
+
+        container.innerHTML += `
+            <div class="message-card">
+                <p><strong>Message:</strong></p>
+                <p>${message.message}</p>
+            </div>
+        `;
+
+    });
+}
+
+loadSentMessages();
+
+</script>
+
+
+</body>
+
+</html>
